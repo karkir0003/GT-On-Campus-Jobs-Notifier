@@ -1,0 +1,97 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.05rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.row{
+    overflow: hidden; 
+    width: 100%;
+}
+
+input.form-control {
+    border-radius: 10px;
+    max-width: 450px;
+    height: 48px;
+    box-shadow: 0px 2px 10px 0px rgb(202, 202, 202);
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+input.form-control:focus {
+    border: none;
+    box-shadow: 0px 2px 10px 0px rgb(133, 133, 133);
+}
+
+button.btn {
+    max-width: 450px;    
+    border-radius: 10px !important;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    padding: 0 1.5em;
+    border: double 2px transparent;
+    transition: all 0.5s linear;
+    min-width: 150px;
+}
+
+button.btn.btn-warning {
+    box-shadow: 0px 10px 30px rgba(253, 207, 0, 0.3);
+}
+button.btn.btn-warning:hover {
+    box-shadow: 0px 10px 30px rgba(253, 207, 0, 0.5);
+}
+/* 
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 0px rgb(202, 202, 202);
+    border: none;
+} */
+footer {
+    color: black;
+    font-size: 0.75rem;
+}
+
+#main {
+    background-color: white;
+}
+
+#about {
+    /* background: url("../img/triangle-backdrop.svg") no-repeat;
+    background-size: cover; */
+}
+
+.triangle-area {
+    position: absolute;
+    z-index: -1;
+    height: 150%;
+    width: 100%;
+    background: #fbfbfd;
+    top: -5px;
+    right: -47%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.toastify {
+    border-radius: 10px;
+}
+
+.toastify-error {
+    background: linear-gradient(135deg,#ff5252,#a00000);
+    box-shadow: 0px 10px 30px rgba(255, 58, 58, 0.5);
+    font-size: 0.95rem;
+}
+
+.toastify-success {
+    background: linear-gradient(135deg,#00be10,#05a000);
+    box-shadow: 0px 10px 30px rgba(81, 255, 58, 0.5);
+    font-size: 0.95rem;
+}
